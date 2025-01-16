@@ -43,7 +43,7 @@ def process_data(file) :
         # the text rating is followed by space
         label, text = line.split(' ', 1)
 
-        #remove __label__ and just keep number
+        #remove __label__ and just keep numbers
         label = label.replace('__label__', '')
 
         #add the two
